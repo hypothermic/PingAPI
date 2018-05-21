@@ -1,0 +1,14 @@
+name: TekkitUtil
+main: nl.hypothermic.tekkitutil.TekkitUtil
+version: 1.0.0-RELEASE
+author: hypothermicdotnl
+commands:
+   find:
+      description: Find a block by id in radius.
+      usage: /find <id> <radius>
+      permission: tekkitutil.find
+      permission-message: You don't have permission to use this command
+permissions:
+    tekkitutil.find:
+        description: Allows you to use the find command
+        default: true
